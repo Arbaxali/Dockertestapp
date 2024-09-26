@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V92sixrYH0aJq1J8xlkB0AvXV01PcLnyyWkcKTGXrZg=",
+  "Source": "TestWebapp",
+  "BasePath": "_content/TestWebapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
