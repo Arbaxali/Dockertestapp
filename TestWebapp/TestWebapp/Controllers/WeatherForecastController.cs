@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using TestWebapp.Services;
+using TestWebapp.Models;
+
 
 namespace TestWebapp.Controllers
 {
@@ -18,7 +21,7 @@ namespace TestWebapp.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetWeatherForecas")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -28,6 +31,27 @@ namespace TestWebapp.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpPost("InsertNameAndDob")]
+        public ActionResult<NameDobModel> InsertNameDob([FromBody] NameDobModel payload)
+        {
+            if (payload == null)
+            {
+                return BadRequest("Payload is null");
+            }
+
+            var result = NameMapper.Mapper(payload);
+
+ 
+
+            var jsonResponse = result.ToString(); // Convert JObject to JSON string
+
+            return Content(jsonResponse, "application/json");
+
+
+
+
         }
     }
 }

@@ -6,6 +6,7 @@ C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\TestWebapp.runtimeconfig.j
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\TestWebapp.dll
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\TestWebapp.pdb
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Work\dotnet\TestWebapp\TestWebapp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
