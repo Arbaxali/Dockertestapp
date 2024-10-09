@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Expose the port (80 or any other if your app uses it)
-EXPOSE 80
+EXPOSE 7000
 
 # Set the entry point to run your application
 ENTRYPOINT ["dotnet", "TestWebapp.dll"]
